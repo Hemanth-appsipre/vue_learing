@@ -1,18 +1,9 @@
 <script setup>
-const developer = 'Hemanth Reddy';
-const role = 'Future Vue.js Engineer';
+
+import Day_1 from "./Day_1.vue";
 </script>
+
 <template>
-  <main class="container">
-    <h1>Welcome, {{ developer }}</h1>
-    <p>Today I begin my journey as a {{ role }}.</p>
-  </main>
+  <Day_1 />
+
 </template>
-<style scoped>
-.container {
-  font-family: system-ui, sans-serif;
-  text-align: center;
-  padding: 4rem;
-}
-h1 { color: #42b883; }
-</style>
