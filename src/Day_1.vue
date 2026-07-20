@@ -1,9 +1,9 @@
 <script setup>
+import image from "./assets/github-logo.jpg";
 const developer = "Hemanth Reddy";
 const role = "Future Vue.js Engineer";
 const location = "Hyderabad";
 const github = "https://github.com/Saihemanth56";
-
 const date = new Date().toLocaleDateString();
 </script>
 
@@ -15,10 +15,11 @@ const date = new Date().toLocaleDateString();
       <p>Today I begin my journey as a {{ role }}.</p>
 
       <p>Currently based in {{ location }}.</p>
+      <img :src="image" alt="GitHub Logo" class="logo" />
 
       <p>
         Check out my GitHub profile:
-        <a :href="github" target="_blank">GitHub</a>
+        <a :src="github" target="_blank">GitHub</a>
       </p>
     </main>
 
@@ -54,7 +55,11 @@ const date = new Date().toLocaleDateString();
   color: white;
   margin: 0;
 }
-
+.logo {
+  width: 150px;
+  height: auto;
+  margin: 20px 0;
+}
 h1 {
   color: #111925;
 }
