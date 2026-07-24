@@ -1,10 +1,10 @@
 <script setup>
 
 
-import Day_5 from "./Day_5.vue";
+import Day_6 from "./Day_6.vue";
 </script>
 
 <template>
-  <Day_5 />
+  <Day_6 />
 
 </template>

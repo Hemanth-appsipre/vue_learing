@@ -9,7 +9,8 @@ const users = ref([
   { id: 2, name: "Rahul", age: 22 },
   { id: 3, name: "Sai", age: 20 },
   { id: 4, name: "Ajay", age: 23 },
-  { id: 5, name: "Kiran", age: 24 }
+  { id: 5, name: "Kiran", age: 24 },
+  { id: 6, name: "Hemanth", age: 20}
 ])
 
 const visibleUsers = computed(() => {
