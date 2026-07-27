@@ -21,7 +21,7 @@ const message = ref("")
 const likes = ref(0)
 const role = ref("admin")
 function addlikes(){
-    likes.value++
+    likes.value = likes.value+2
 }
 function login(){
     if(username.value === '' || password.value === ''){

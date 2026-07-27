@@ -90,7 +90,7 @@ function removeUser(id) {
 
 input{
   width:100%;
-  margin:10px 0;
+  margin:10px ;
 }
 
 button{
@@ -98,8 +98,6 @@ button{
 }
 
 .card{
-  display:flex;
-  justify-content:space-between;
   padding:10px;
   border:1px solid gray;
   margin:8px 0;
@@ -110,12 +108,6 @@ button{
 .list-move{
   transition:0.4s;
 }
-
-.list-enter-from{
-  opacity:0;
-  transform:translateY(-20px);
-}
-
 .list-leave-to{
   opacity:0;
   transform:translateX(40px);

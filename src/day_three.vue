@@ -5,17 +5,20 @@ const products = reactive([
   {
     id : 1,
     name : "Laptop",
-    price : 200
+    price : 200,
+    location : "hyd"
   },
   {
     id : 2,
     name : "SmartPhone",
-    price : 120
+    price : 120,
+    location : "ongole"
   },
   {
     id : 3,
     name : "Keyboard",
-    price : 30
+    price : 30,
+    location : "bengl"
   }
 ])
 const cart = ref([])
@@ -49,6 +52,9 @@ function addToCart(product){
       <h2>{{product.name}}</h2>
       <p>
         ${{product.price}}
+      </p>
+      <p>
+        loc: {{ product.location }}
       </p>
       <button @click="addToCart(product)">
         Add To Cart
