@@ -1,4 +1,3 @@
-<!-- src/components/feature/profile/UserCard.vue -->
 <script setup>
 import UserBadge from './UserBadge.vue'
 defineProps({
@@ -11,7 +10,7 @@ defineProps({
 
 <template>
     <div class="card">
-        <h2>{{ namme }}</h2>
+        <h2>{{ name }}</h2>
         <p>{{ role }}</p>
         <small>{{ location }}</small>
         <div class="badge-row">

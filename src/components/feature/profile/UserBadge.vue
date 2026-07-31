@@ -1,4 +1,3 @@
-<!-- src/components/feature/profile/UserBadge.vue -->
 <script setup>
 defineProps({
   status: {

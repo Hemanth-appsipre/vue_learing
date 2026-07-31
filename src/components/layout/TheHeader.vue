@@ -1,4 +1,3 @@
-<!-- src/components/layout/TheHeader.vue -->
 <template>
     <header class="header">
         <h1>User Profile</h1>
