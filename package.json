@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "day-13",
+=======
+  "name": "vue-project",
+>>>>>>> 47b8f603f74c93d309b900cb07c22f78a582eb71
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -13,6 +17,7 @@
     "format": "prettier --write --experimental-cli src/"
   },
   "dependencies": {
+<<<<<<< HEAD
     "vue": "^3.5.40"
   },
   "devDependencies": {
@@ -28,6 +33,23 @@
     "prettier": "3.9.5",
     "vite": "^8.1.5",
     "vite-plugin-vue-devtools": "^8.1.5",
+=======
+    "vue": "^3.5.38"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@vitejs/plugin-vue": "^6.0.7",
+    "eslint": "^10.5.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-oxlint": "~1.69.0",
+    "eslint-plugin-vue": "~10.9.2",
+    "globals": "^17.6.0",
+    "npm-run-all2": "^9.0.2",
+    "oxlint": "~1.69.0",
+    "prettier": "3.8.4",
+    "vite": "^8.0.16",
+    "vite-plugin-vue-devtools": "^8.1.2",
+>>>>>>> 47b8f603f74c93d309b900cb07c22f78a582eb71
     "vue-eslint-parser": "^10.4.1"
   },
   "engines": {

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Day_13
+=======
+# vue-project
+>>>>>>> 47b8f603f74c93d309b900cb07c22f78a582eb71
 
 This template should help get you started developing with Vue 3 in Vite.
 
